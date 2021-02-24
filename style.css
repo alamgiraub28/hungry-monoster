@@ -1,0 +1,87 @@
+body{
+    background: rgba(205, 149, 31, 0.379);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body h1{
+    color: coral;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.searchBar{
+    margin: 0 auto;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#inputFoodName{
+    font-size: 20px;
+    padding: 15px;
+    width: 400px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: none;
+    text-align: center;
+}
+
+#searchBtn{
+    font-size: 20px;
+    padding: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: none;
+    text-align: center;
+}
+.notFound{
+    color: red;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    width: 100%;
+}
+
+#foodList{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:15px; 
+
+}
+
+.foodItem{
+    text-align: center;
+    background: rgb(250, 128, 52);
+    border-radius:15px;
+}
+
+.foodTitle{
+    padding: 20px;
+}
+
+.foodTitle h3{
+   color: white;
+   font-size: 30px;
+   cursor: pointer;
+}
+
+.image_food{
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    cursor: pointer;
+
+}
+
+.foodDetailContainer{
+    width: 400px;
+    margin: 0 auto;
+    background: rgb(222, 171, 62);
+    border-radius:15px;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+}
+
+.mealTitle{
+    text-align: center;
+}
